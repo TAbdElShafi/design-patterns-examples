@@ -15,7 +15,7 @@ public class AdapterExample {
         }
 
         SquarePeg smallSqPeg = new SquarePeg(2);
-        SquarePeg largeSqPeg = new SquarePeg(20);
+        SquarePeg largeSqPeg = new SquarePeg(15);
 
         // Adapter solves the problem.
         SquarePegAdapter smallSqPegAdapter = new SquarePegAdapter(smallSqPeg);
